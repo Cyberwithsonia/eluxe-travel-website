@@ -5,47 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>eLuxe Travel</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/png" href="Images/favicon.png" />
 </head>
 <body>
 
-  <!-- Header -->
   <header class="header">
-    <img src="Images/elux-logo-airplane.png" alt="eLuxe Logo" class="logo" />
+    <img src="Images/elux-logo-airplane.png" alt="eLuxe Travel Logo" class="logo" />
     <nav class="nav">
-      <a href="#">Home</a>
-      <a href="#form">Travel Form</a>
+      <a href="#home">Home</a>
       <a href="#booking">Booking</a>
       <a href="#payment">Payment</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
+  <section id="home" class="hero">
     <h1>Welcome to eLuxe Travel</h1>
     <p>Luxury travel. Personalized experiences.</p>
   </section>
 
-  <!-- Form Section -->
-  <section class="form-section" id="form">
+  <section class="form-section">
     <h2>Travel Client Intake Form</h2>
     <form>
       <input type="text" placeholder="Full Name" required />
       <input type="email" placeholder="Email" required />
       <input type="tel" placeholder="Phone Number" required />
-      <textarea placeholder="Travel Preferences" rows="4"></textarea>
+      <textarea placeholder="Travel Preferences"></textarea>
       <button type="submit">Submit</button>
     </form>
   </section>
 
-  <!-- Contact Section -->
-  <section class="contact-section" id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:info@eluxetravel.com">info@eluxetravel.com</a></p>
+  <section id="booking" class="booking-section">
+    <h2>Booking</h2>
+    <p>Information on how to book your perfect vacation will be placed here soon.</p>
   </section>
 
-  <!-- Footer -->
+  <section id="payment" class="payment-section">
+    <h2>Payment</h2>
+    <p>Details about secure and easy payment options coming soon.</p>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>Email us at <a href="mailto:info@eluxetravel.com">info@eluxetravel.com</a></p>
+  </section>
+
   <footer class="footer">
     &copy; 2025 eLuxe Travel. All rights reserved.
   </footer>
