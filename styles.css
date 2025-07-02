@@ -40,7 +40,7 @@ body {
 .hero {
   text-align: center;
   padding: 4rem 2rem;
-  background-image: url('images/hero-background.png');
+  background-image: url('Images/hero-background.png');
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -54,13 +54,6 @@ body {
 .hero p {
   font-size: 1.25rem;
   margin-bottom: 2rem;
-}
-
-.hero-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Form Sections */
